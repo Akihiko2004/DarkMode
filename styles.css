@@ -1,0 +1,22 @@
+html, body {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+{
+  color: #ffffff !important;
+  background-color: transparent !important;
+  border-color: #555 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
+
+
+p, span, div, td, th, li, strong, em, h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+
+a {
+  color: #90caf9 !important;
+}

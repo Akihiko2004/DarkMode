@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Dark Mode Toggle",
+  "version": "1.0",
+  "description": "Toggle dark mode on any website via right-click.",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["styles.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+  "action": {
+    "default_title": "Dark Mode Toggle"
+  }
+}
